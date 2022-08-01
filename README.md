@@ -1,83 +1,33 @@
-# Adrikikicp-SDK
+# gd-sdk
 
-# Disclaimer
-THIS DOESN'T HAVE UPDATES SINCE A WHILE AGO, AND I WOULD RECOMMEND HJFod'S VERSION OF GD.H, AND COCOS-HEADERS
+This is repository for Helium's Geometry Dash Hooks and Patchs Framework
 
-# This is, Adrikikicp SDK
-GD SDK that i use for my mods
+So, how start:
 
-# What is the meaning of SDK????
+This is only compatible with Helium's toolchain, and my own toolchain, so it can be compatible with the [cocos2d headers](https://github.com/HeliumUniversal/cocos2d-x) and the [framework](https://github.com/HeliumUniversal/framework).
 
-SDK is Software Development Kit. This is a GD modding sdk that i use for mods
+For using this framework, you need:
 
+Any C++ compiler, i use Visual Studio Community 2019's MSBuild
 
+Visual Studio Code (or any text editor)
 
+CMake (or a generator that converts that code to Visual Studio Community 2019 (in my case), or clang (another c++ compiler) )
 
-# How does it work?
+Knowledge of C, C++
 
-The same as CappuccinoSDK and cocos-headers
+For Java:
 
-# How i create a mod with this SDK? 
-1- Create a dll project
+Eclipse (or another IDE for Java)
 
-
-
-
-2- Download .zip file
+Apache Maven
 
 
 
+This framework uses:
 
-3- Extract file
+Cocos2d (our cocos2d framework works best)
 
+My [Patcher](https://github.com/Adrikikicp/Patcher)
 
-
-4- Create a libs folder
-
-
-
-
-5- Put libAdrikikicpSDK.lib on libs folder
-
-
-
-
-6- Put libAdrikikicpSDKExtensions.lib on libs folder
-
-
-
-
-
-7- Download my gd headers and some cocos2d headers api (GD.dll) and download .zip file
-
-
-
-
-
-8- Extract file
-
-
-
-
-
-9- Create a folder called "GD.dll" and put all files on this folder
-
-
-
-
-10- Make mod
-
-
-
-11- Compile your mod
-
-
-
-12- After creating mod, are done. Use a mod loader or inject dll with Mega Hack v6 or with Cheat Engine
-
-
-
-13- Done!!!!!
- 
-
-
+Our modification of [fmt](https://github.com/HeliumUniversal/fmt) (for funkin)
